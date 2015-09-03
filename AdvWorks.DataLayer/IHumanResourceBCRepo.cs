@@ -9,6 +9,6 @@ namespace AdvWorks.DataLayer
         EmployeeData GetEmployeeWithDepartment(int businessId);
         IList<ShiftData> GetShifts();
         IList<DepartmentData> GetDepartments();
-        void ChangeEmployeeDepartment(EmployeeData data);
+        EmployeeData ChangeEmployeeDepartment(EmployeeData data);
     }
 }

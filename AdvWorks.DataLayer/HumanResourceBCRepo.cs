@@ -69,7 +69,7 @@ namespace AdvWorks.DataLayer
             }
         }
 
-        public void ChangeEmployeeDepartment(EmployeeData data)
+        public EmployeeData ChangeEmployeeDepartment(EmployeeData data)
         {
             throw new NotImplementedException();
         }

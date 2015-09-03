@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvWrks.DataModel", "AdvWrk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvWrks.ObjectMappings", "AdvWrks.ObjectMappings\AdvWrks.ObjectMappings.csproj", "{8DC3DAD9-611B-4F60-849B-02B115739B73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvWorks.API", "AdvWorks.API\AdvWorks.API.csproj", "{8504EC22-4BB2-4CB4-914D-AE6756419791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +80,10 @@ Global
 		{8DC3DAD9-611B-4F60-849B-02B115739B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DC3DAD9-611B-4F60-849B-02B115739B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DC3DAD9-611B-4F60-849B-02B115739B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8504EC22-4BB2-4CB4-914D-AE6756419791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8504EC22-4BB2-4CB4-914D-AE6756419791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8504EC22-4BB2-4CB4-914D-AE6756419791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8504EC22-4BB2-4CB4-914D-AE6756419791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +97,7 @@ Global
 		{78FC5CAE-7830-4259-8C8E-987B97E8D9E5} = {C2EC2648-6106-417D-A280-1B1E12ACD7F6}
 		{73BC8D81-2D23-436A-8A93-225BAC821C16} = {C2EC2648-6106-417D-A280-1B1E12ACD7F6}
 		{8DC3DAD9-611B-4F60-849B-02B115739B73} = {D23BA4C3-D588-4368-867A-99C8CD172102}
+		{8504EC22-4BB2-4CB4-914D-AE6756419791} = {765025E3-5F70-46A4-A950-03C7554871E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
