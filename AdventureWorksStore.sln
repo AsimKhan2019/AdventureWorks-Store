@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C609FE5D-3B0B-4B0A-9201-F44B3CDB7428}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{C2EC2648-6106-417D-A280-1B1E12ACD7F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D23BA4C3-D588-4368-867A-99C8CD172102}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{765025E3-5F70-46A4-A950-03C7554871E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2F8D6941-9463-4E2C-9C2F-1F21C2B0DAA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C372E006-AC6C-4A07-B663-3FB7A5836E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvWorks.Core", "AdvWorks.Core\AdvWorks.Core.csproj", "{E1E7FE0D-A5A1-44A6-BEB8-212747016037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvWorks.Core.HumanResourceBC", "AdvWorks.Core.HumanResourceBC\AdvWorks.Core.HumanResourceBC.csproj", "{A8C48A3F-CABF-4AA3-9590-3D7022A42871}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{8819D301-AC9C-4DD2-9674-E5EAA498189C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvWrks.CoreUnitTest", "AdvWrks.CoreUnitTest\AdvWrks.CoreUnitTest.csproj", "{94C89CDF-FB39-4E2B-9B8B-9A41C84F2A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveryLogSource", "EveryLogSource\EveryLogSource.csproj", "{FA950802-F501-44B6-BCEF-D9F916E2AA9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleTest", "ConsoleTest", "{21C25DDC-1E62-4348-AB8C-8795FAEF568F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdWrksConsoleTest", "AdWrksConsoleTest\AdWrksConsoleTest.csproj", "{0194BAD3-E66D-4BD5-86A2-C1AA92F2D305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EA85F984-52D6-4EBC-8DF1-0C8801BDB937}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvWorks.DataLayer", "AdvWorks.DataLayer\AdvWorks.DataLayer.csproj", "{78FC5CAE-7830-4259-8C8E-987B97E8D9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvWrks.DataModel", "AdvWrks.DataModel\AdvWrks.DataModel.csproj", "{73BC8D81-2D23-436A-8A93-225BAC821C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvWrks.ObjectMappings", "AdvWrks.ObjectMappings\AdvWrks.ObjectMappings.csproj", "{8DC3DAD9-611B-4F60-849B-02B115739B73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1E7FE0D-A5A1-44A6-BEB8-212747016037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E7FE0D-A5A1-44A6-BEB8-212747016037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E7FE0D-A5A1-44A6-BEB8-212747016037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E7FE0D-A5A1-44A6-BEB8-212747016037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C48A3F-CABF-4AA3-9590-3D7022A42871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C48A3F-CABF-4AA3-9590-3D7022A42871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C48A3F-CABF-4AA3-9590-3D7022A42871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C48A3F-CABF-4AA3-9590-3D7022A42871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C89CDF-FB39-4E2B-9B8B-9A41C84F2A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C89CDF-FB39-4E2B-9B8B-9A41C84F2A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C89CDF-FB39-4E2B-9B8B-9A41C84F2A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C89CDF-FB39-4E2B-9B8B-9A41C84F2A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA950802-F501-44B6-BCEF-D9F916E2AA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA950802-F501-44B6-BCEF-D9F916E2AA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA950802-F501-44B6-BCEF-D9F916E2AA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA950802-F501-44B6-BCEF-D9F916E2AA9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0194BAD3-E66D-4BD5-86A2-C1AA92F2D305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0194BAD3-E66D-4BD5-86A2-C1AA92F2D305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0194BAD3-E66D-4BD5-86A2-C1AA92F2D305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0194BAD3-E66D-4BD5-86A2-C1AA92F2D305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FC5CAE-7830-4259-8C8E-987B97E8D9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FC5CAE-7830-4259-8C8E-987B97E8D9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FC5CAE-7830-4259-8C8E-987B97E8D9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FC5CAE-7830-4259-8C8E-987B97E8D9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BC8D81-2D23-436A-8A93-225BAC821C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BC8D81-2D23-436A-8A93-225BAC821C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BC8D81-2D23-436A-8A93-225BAC821C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BC8D81-2D23-436A-8A93-225BAC821C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC3DAD9-611B-4F60-849B-02B115739B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC3DAD9-611B-4F60-849B-02B115739B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC3DAD9-611B-4F60-849B-02B115739B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC3DAD9-611B-4F60-849B-02B115739B73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1E7FE0D-A5A1-44A6-BEB8-212747016037} = {C609FE5D-3B0B-4B0A-9201-F44B3CDB7428}
+		{A8C48A3F-CABF-4AA3-9590-3D7022A42871} = {C609FE5D-3B0B-4B0A-9201-F44B3CDB7428}
+		{94C89CDF-FB39-4E2B-9B8B-9A41C84F2A90} = {8819D301-AC9C-4DD2-9674-E5EAA498189C}
+		{FA950802-F501-44B6-BCEF-D9F916E2AA9E} = {D23BA4C3-D588-4368-867A-99C8CD172102}
+		{0194BAD3-E66D-4BD5-86A2-C1AA92F2D305} = {21C25DDC-1E62-4348-AB8C-8795FAEF568F}
+		{78FC5CAE-7830-4259-8C8E-987B97E8D9E5} = {C2EC2648-6106-417D-A280-1B1E12ACD7F6}
+		{73BC8D81-2D23-436A-8A93-225BAC821C16} = {C2EC2648-6106-417D-A280-1B1E12ACD7F6}
+		{8DC3DAD9-611B-4F60-849B-02B115739B73} = {D23BA4C3-D588-4368-867A-99C8CD172102}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal
